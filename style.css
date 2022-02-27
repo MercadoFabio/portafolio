@@ -1,0 +1,329 @@
+.caja{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(150deg, white,  grey, white);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+}
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.caja{
+    width:100%;
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+.container-principal{
+    width:100%;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: fixed;
+    top: 10px;
+    right: 5rem;
+}
+nav .items{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+.items:hover{
+    color:ghostwhite;
+    text-transform:uppercase;
+    text-decoration:underline;
+}
+.subtitulo{
+    position: fixed;
+    left: 0;
+    top: 10px;
+    padding-left: 50px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+.subtitulo::before{
+    content: "❃";
+    }
+.mail{
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.perfil{
+width: 20rem;
+height: 20rem;
+border-radius: 20rem;
+position: absolute;
+top: 100px;
+right: -50px;
+}
+.titulo-principal{
+    padding: 100px;
+    font-size: 30px;
+    font-family: fantasy;
+    width: 350px;
+    height: 10px;
+}
+.biografia{
+    position: static;
+    width: 600px;
+    font-size: 22px;
+    line-height: 26px;
+}
+.biografia strong{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+    padding-top: 20px;
+    padding: 20px;
+   
+}
+.fa-github:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover,.fa-file:hover{
+    color: #008000;
+}
+.fab,.fa{
+    color: #000000;
+    padding-right: 150px;
+    text-align: center;
+}
+.about{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.titulo-about{
+    font-size: 30px;
+    font-family: fantasy;
+    height: 10px;
+    text-align: left;
+    text-decoration: underline;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.info-about{
+    position: static;
+    width: 700px;
+    font-size: 22px;
+    line-height: 26px;
+}
+.skills , .hobbies{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    
+}
+.titulo-skills , .titulo-hobbies   {
+    padding: 50px;
+    position: relative;
+    font-size: 30px;
+    font-family: fantasy;
+    width: 350px;
+    height: 10px;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.image-skills , .image-hobbies{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 3.5rem;
+    margin: 0 auto;
+    padding-right: 145px;
+    position: relative;
+}
+
+.lista-principal {
+    width: 40%;
+    display: inline-flex;
+    vertical-align: top;
+}
+.lista-skills:hover , .lista-hobbies:hover{
+    cursor: pointer;
+    transform: scale(2.0);
+}
+.epigrafe-skills , .epigrafe-hobbies{
+    text-align: center;
+    padding-right: 80px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.studies{
+    width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 150px;
+}
+.titulo-studies{
+    padding: 50px;
+    position: relative;
+    font-size: 30px;
+    font-family: fantasy;
+    width: 750px;
+    height: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lista-studies li{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.lista-studies li:hover{
+    border-color: white;
+}
+.lista-studies li:active{
+    border-color: black;
+}
+.lista-studies h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.lista-studies li:hover h2{
+    font-size: 33px;
+}
+.studies-descripcion{
+    font-size: 18px;
+}
+.studies-subtitulo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.imagen {
+width: 15rem;
+height: 15rem;
+}
+.proyects{
+    width: 100%;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.titulo-proyects{
+    padding: 50px;
+    position: relative;
+    font-size: 30px;
+    font-family: fantasy;
+    width: 750px;
+    height: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+.proyects-image{
+    width: 50%;
+    margin: 20px auto;
+    float: left;
+    margin-right: 15px;
+    padding: 15px;
+
+}
+.subtitulo-proyects{
+    position: relative;
+    
+    left: 550px;
+    top: 100px;
+    
+    font-weight: bold;
+    font-size: 32px;
+}
+.item-p{
+    position: relative;
+    left: 550px;
+    top: 110px;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+.btn-demo{
+    left: 5px;
+    top: 120px;
+    position: relative;
+    background: blue;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: #000000;
+    
+}
+.btn-repo{
+    left: 5px;
+    top: 120px;
+    position: relative;
+    background: white;
+    padding: 15px;
+    margin: 0  auto;
+    border-radius: 10px;
+    border-color: #000000;
+}
+.btn-demo:hover , .btn-repo:hover ,.btn-demo-1 , .btn-repo-1{
+  
+    transform: scale(0.9);
+}
+.subtitulo-proyects-1{
+    position: relative;
+    right: 500px;
+    top: 350px;
+    font-weight: bold;
+    font-size: 32px;
+}
+.item-p-1{
+  
+    position: relative;
+    right: 500px;
+    top: 350px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.btn-demo-1{
+    right: 15px;
+    top: 350px;
+    position: relative;
+    background: blue;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: #000000;
+    right: 500px;
+    
+}
+.btn-repo-1{
+    top: 350px;
+    position: relative;
+    background: white;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-color: #000000;
+    right: 500px;
+}
+.proyects-image-1{
+    width: 50%;
+    margin: 20px auto;
+    float: right;
+    margin-right: 15px;
+    padding: 15px;
+}
