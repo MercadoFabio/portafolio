@@ -327,3 +327,33 @@ height: 15rem;
     margin-right: 15px;
     padding: 15px;
 }
+@media screen and (max-width: 480px) {
+        .titulo-about , .titulo-hobbies ,.titulo-principal, .titulo-proyects,.titulo-skills,.titulo-studies{
+            
+            text-align: center;
+
+        }
+        nav{
+            position: absolute;
+            display: block;
+        }
+        .perfil{
+            width: 5rem;
+            height: 5rem;
+            border-radius: 3rem;
+        }
+        .biografia{
+            width: auto;
+            height: auto;
+        }
+        .container-principal{
+            width: auto;
+        }
+        .about , .skills , .hobbies , .studies, .proyects {
+            width: auto;
+            height: auto;
+
+        }  
+
+
+}
