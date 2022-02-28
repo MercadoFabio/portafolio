@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
@@ -21,17 +21,17 @@
             <li><a class="items" href="#hobbies">Hobbies</a></li>
             <li><a class="items" href="#studies">Formación</a></li>
             <li><a class="items" href="#proyects">Proyectos</a></li>
-            <li><a class="items" href="#contact">Contacto</a></li>
+            <li><a class="items" href="#contacts">Contacto</a></li>
             <li><a class="mail" href="mailto:fabiomercadon@gmail.com">fabiomercadon@gmail.com</a></li>
           </ul>
         </nav>
-        
+        <div class="container-datos">
         <h1 class="titulo-principal">Hola mi nombre es Fabio Mercado y soy desarrollador web</h1>
         <img class="perfil" src="imagenes/fotoPerfil.bmp" alt="Foto De Perfil">
          <p class="biografia">Actualmente me encuentro cursando la tecnicatura en programación
             en la <strong>Universidad Tecnológica Nacional</strong> , y a su vez
             estoy participando del proyecto <strong>Oracle ONE en Alura Latam </strong> 
-            
+        </div>
            </p>
         <div class="container-fluid">
             <!-- social media icons -->
@@ -150,8 +150,45 @@
       
         </div>
       </section>
-  </main>
- 
+      <section class="contacto">
+        <a name="contacts"></a>
+        
+        <img class="imagen-form" src="imagenes/form.png" alt="Imagen del Formulario" >
+        <form 
+        action="https://formspree.io/f/xoqrwvqg"
+        method="POST"
+        >
+           
+        <div class="item-contact">
+          <h1 class="titulo-contacts">Contacto</h1>
+          <p>¿Quieres contactarme?</p>
+          <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+        </div>
+        
+            
+            <input type="text" name="nombreapellido" class="input-padron" required placeholder="Nombre">
+            
+            
+            <input type="email" name="correoelectronico" class="input-padron" required placeholder="Email">
+
+            
+            <input type="text" name="asunto" class="input-padron" required placeholder="Asunto"> 
+            
+            
+            <textarea  name="mensaje" cols="70" rows="10" class="input-padron" required placeholder="Mensaje" ></textarea >
+
+              <input type="submit" value="Enviar mensaje" class="enviar">
+          
+          </form>
+          
+        </section>
+       
+      </main>
+      <footer>
+        
+        <p class="copyright">&copy Copyright Fabio Mercado - 2022</p>
+    
+      </footer>
 </body>
 </html>
 
